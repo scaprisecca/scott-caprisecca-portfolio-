@@ -1,0 +1,38 @@
+:root {
+    --light-gray: #e3e3e3;
+    --white: #f5f5f5;
+    --black: #333333;
+}
+
+/* --- Header ---*/
+
+#header {
+    /* background-image:url("./images/overlay.png"), url("../../images/fulls/code-bg.jpg"); */
+    background-size: cover;
+}
+
+h1 {
+    color: var(--white);
+}
+
+/* --- Buttons ---*/
+
+.primary-btn {
+    width: 45%;
+}
+
+.secondary-btn {
+    width: 45%;
+    margin-left: 1rem;
+}
+
+
+
+/* --- Media Queries ---*/
+
+@media screen and (max-width: 660px) {
+    .secondary-btn {
+        margin-left: 0;
+        margin-top: .5rem;
+    }
+}
