@@ -2560,17 +2560,6 @@ input, select, textarea {
 			margin: 0 0 1.5em 0;
 		}
 
-		.work-item h3 {
-			font-size: 1em;
-			margin: 0 0 0.5em 0;
-		}
-
-		.work-item p {
-			font-size: 0.8em;
-			line-height: 1.5em;
-			margin: 0;
-		}
-
 /* Header */
 
 	#header {
@@ -2997,7 +2986,7 @@ input, select, textarea {
 
 			#header {
 				padding: 6em 3em 3em 3em;
-				width: 30%;
+				width: 25%;
 			}
 
 				#header h1 {
@@ -3025,10 +3014,10 @@ input, select, textarea {
 		/* Main */
 
 			#main {
-				margin-left: 30%;
+				margin-left: 25%;
 				max-width: none;
-				padding: 6em 3em 3em 3em;
-				width: calc(100% - 30%);
+				padding: 5em 3em 3em 3em;
+				width: calc(100% - 25%);
 			}
 
 	}
