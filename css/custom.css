@@ -1,0 +1,62 @@
+/* --- About --- */
+
+.tech-card {
+    display: inline-block;
+}
+
+.tech-card img {
+    width: 100px;
+    height: 100px;
+    padding: 0 .6rem;
+}
+
+.tech-card i {
+    width: 100px;
+    height: 100px;
+}
+
+.tech-card-text {
+    padding-top: .5rem;
+    color: #6c757d;
+}
+
+/* --- Modals --- */
+
+.modal-lg {
+    max-width: 90%;
+}
+
+.modal-title {
+    font-size: 2rem;
+}
+
+.modal-subtitle {
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.tech-used {
+    padding: 1rem 0 0;
+    margin: 0;
+}
+
+.tech-used li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 1rem;
+    margin: .5rem 0;
+    border: 1px solid #17a2b8;
+    background-color: #17a2b8;
+    color: white;
+}
+
+.modal-link {
+    text-decoration: none;
+    color: white;
+}
+
+
+@media (min-width: 576px) { 
+    
+ }
